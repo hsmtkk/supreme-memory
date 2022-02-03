@@ -1,0 +1,9 @@
+---
+version: "3.8"
+services:
+  tinyproxy:
+    image: vimagick/tinyproxy:latest
+    ports:
+      - "8888:8888"
+  whoami:
+    image: traefik/whoami:latest
